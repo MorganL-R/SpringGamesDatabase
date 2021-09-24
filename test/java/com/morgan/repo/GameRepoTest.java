@@ -24,6 +24,7 @@ public class GameRepoTest {
         game.setTitle("Bloodborne");
         game.setGenre("Action");
         game.setAgeRating(16);
+        game.setReleaseYear(2015);
         game.setDeveloper("From Software");
         gameRepo.save(game);
 
@@ -32,6 +33,7 @@ public class GameRepoTest {
         game.setTitle("Deathloop");
         game.setGenre("Imersive Sim");
         game.setAgeRating(18);
+        game.setReleaseYear(2021);
         game.setDeveloper("Arkane Lyon");
         gameRepo.save(game);
     }
