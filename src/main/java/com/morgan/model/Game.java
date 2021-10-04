@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import java.util.Objects;
 
 @Entity
-@JsonIncludeProperties({"id", "title", "genre", "runtime", "rating", "actors"})
+@JsonIncludeProperties({"id", "title", "genre", "releaseYear", "ageRating", "developer"})
 public class Game {
     @Id
     @Column(name = "game_id")
